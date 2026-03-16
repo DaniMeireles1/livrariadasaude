@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Livraria da Saúde</title>
+<style>
+body{font-family:Arial,Helvetica,sans-serif;margin:0;background:#0f0f0f;color:#f5f5f5}
+header{padding:60px 20px;text-align:center;background:#000}
+header h1{color:#d4af37;font-size:40px;margin-bottom:10px}
+header p{font-size:18px;color:#ddd}
+.container{max-width:1000px;margin:auto;padding:40px 20px}
+.book{display:flex;flex-wrap:wrap;gap:30px;align-items:center}
+.book img{max-width:280px;border-radius:8px}
+.book-info{flex:1}
+.button{display:inline-block;margin-top:20px;padding:14px 24px;background:#d4af37;color:#000;text-decoration:none;font-weight:bold;border-radius:6px}
+.section{margin-top:60px}
+footer{text-align:center;padding:30px;background:#000;margin-top:60px;color:#aaa}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Livraria da Saúde</h1>
+<p>Conteúdo científico de qualidade para profissionais da saúde</p>
+</header>
+
+<div class="container">
+
+<div class="book">
+<img src="https://via.placeholder.com/280x400" alt="Capa do livro">
+<div class="book-info">
+<h2>Nutrologia Feminina</h2>
+<p>
+Este livro apresenta uma abordagem prática e abrangente sobre as necessidades nutricionais da mulher em diferentes fases da vida, com foco clínico e científico para médicos e profissionais da saúde.
+</p>
+<a class="button" href="https://wa.me/55XXXXXXXXXXX" target="_blank">Comprar pelo WhatsApp</a>
+</div>
+</div>
+
+<div class="section">
+<h2>Sobre a obra</h2>
+<p>
+Este livro apresenta uma abordagem prática e baseada em evidências sobre as necessidades nutricionais da mulher em diferentes fases da vida. A obra foi desenvolvida para auxiliar médicos e profissionais da saúde na prática clínica da nutrologia feminina.
+</p>
+<p>
+Supervisão editorial especializada, com foco em conteúdo científico atualizado e aplicável ao consultório.
+</p>
+</div>
+
+<div class="section">
+<h2>Para quem é este livro</h2>
+<ul>
+<li>Médicos em formação em Nutrologia</li>
+<li>Médicos que irão prestar prova de título</li>
+<li>Profissionais interessados em nutrição clínica feminina</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+<p>© Livraria da Saúde</p>
+</footer>
+
+</body>
+</html>
