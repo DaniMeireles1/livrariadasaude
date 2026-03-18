@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Livraria da Saúde</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.hero {
+  background: url('fundo.jpg') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 600px;
+}
+
+.btn {
+  background: #25D366;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+}
+
+.book img {
+  width: 260px;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background: #f5f5f5;
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+  <h1>Nutrologia Feminina I</h1>
+  <p>Guia completo e baseado em evidências para a prática clínica na saúde da mulher</p>
+  <a class="btn" href="https://wa.me/5511997105188">Comprar pelo WhatsApp</a>
+</div>
+
+<div class="section">
+  <div class="book">
+    <img src="capa-livro.png">
+    <div>
+      <h2>Sobre o livro</h2>
+      <p>
+      O livro Nutrologia Feminina I é um guia prático e abrangente que aborda as necessidades nutricionais específicas das mulheres em cada fase da vida.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>O que você vai encontrar</h2>
+  <ul>
+    <li>Saúde menstrual e fertilidade</li>
+    <li>Obesidade e composição corporal</li>
+    <li>Anemia ferropriva</li>
+    <li>Gestação e amamentação</li>
+    <li>Mulher atleta</li>
+    <li>Menopausa</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Para quem é este livro</h2>
+  <p>Médicos e profissionais da saúde que desejam aprofundar seus conhecimentos.</p>
+</div>
+
+<div class="section">
+  <h2>Eleve o nível do seu atendimento</h2>
+  <a class="btn" href="https://wa.me/5511997105188">Comprar agora</a>
+</div>
+
+<div class="footer">
+  <p>Livraria da Saúde</p>
+</div>
+
+</body>
+</html>
